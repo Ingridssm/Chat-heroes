@@ -1,6 +1,6 @@
 
 var url = window.location.href;
-var swLocation = '/chat-heroes/sw.js';
+var swLocation = '/Chat-heroes/sw.js';
 
 if(navigator.serviceWorker){
     if (url.includes('localhost')){
